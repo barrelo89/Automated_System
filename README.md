@@ -1,11 +1,11 @@
 # Automated System with Pytyon
-This is the python script that automatically runs and  captures a series of keyword search in Chrome browser.
+This is the python script that automatically runs and  captures a series of keyword search in Chrome browser in Linux.
 
 ## Prerequisite
-1. Python 3
+1. Python 3 and pip installed
 2. The following packages are required to run: numpy cv2 selenium pyautogui
 ```
-pip install numpy python-opencv pyautogui selenium
+pip3 install numpy python-opencv pyautogui selenium
 apt-get install python3-opencv
 ```
 3. Download a 'chromedriver' zip file for your OS in this [link](https://chromedriver.chromium.org/downloads)
