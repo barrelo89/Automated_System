@@ -8,7 +8,9 @@ This is the python script that automatically runs and  captures a series of keyw
 pip install numpy python-opencv pyautogui selenium
 apt-get install python3-opencv
 ```
-3. Run the following script
+3. Download a 'chromedriver' zip file for your OS in this link [https://chromedriver.chromium.org/downloads]
+4. Extract 'chromedriver' from the zip file and place it to the directory where 'auto_search.py' is 
+5. Run the following script
 ```
 python3 auto_search.py
 ```
@@ -35,13 +37,21 @@ save_base_path = 'imgs'
 if not os.path.exists(save_base_path):
     os.makedirs(save_base_path)
 ```
+
+3. Give an option to have a chrome browser in full-window
 ```
 options = Options()
 options.add_argument("--start-maximized")
+```
 
+4. Create a browser object with the option defined in step 3.
+```
 chrome_path = r'/home/c405/Desktop/DUIN/Conatix/OCR/chromedriver'
 browser = webdriver.Chrome(chrome_options=options, executable_path=chrome_path)
+```
 
+5. Iterative searches with a series of keywords \& screen-capture each search
+```
 for key in data:
 
     malicious_word = data[key]
