@@ -8,7 +8,7 @@ This is the python script that automatically runs and  captures a series of keyw
 pip install numpy python-opencv pyautogui selenium
 apt-get install python3-opencv
 ```
-3. Download a 'chromedriver' zip file for your OS in this link [https://chromedriver.chromium.org/downloads]
+3. Download a 'chromedriver' zip file for your OS in this link[https://chromedriver.chromium.org/downloads]
 4. Extract 'chromedriver' from the zip file and place it to the directory where 'auto_search.py' is 
 5. Run the following script
 ```
