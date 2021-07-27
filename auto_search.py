@@ -16,7 +16,7 @@ if not os.path.exists(save_base_path):
 options = Options()
 options.add_argument("--start-maximized")
 
-chrome_path = r'/home/c405/Desktop/DUIN/Conatix/OCR/chromedriver'
+chrome_path = r'PATH_TO_'chromedriver'_IN_YOUR_MACHINE'
 browser = webdriver.Chrome(chrome_options=options, executable_path=chrome_path)
 
 for key in data:
