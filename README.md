@@ -46,7 +46,7 @@ options.add_argument("--start-maximized")
 
 4. Create a browser object with the option defined in step 3.
 ```
-chrome_path = r'/home/c405/Desktop/DUIN/Conatix/OCR/chromedriver'
+chrome_path = r'PATH_TO_'chromedriver'_IN_YOUR_MACHINE'
 browser = webdriver.Chrome(chrome_options=options, executable_path=chrome_path)
 ```
 
